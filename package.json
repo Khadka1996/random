@@ -1,0 +1,15 @@
+{
+  "name": "proofbook",
+  "version": "0.1.0",
+  "description": "A living, runnable atlas of how software fails. Every failure is a deterministic replay with a fix, verified by CI.",
+  "type": "module",
+  "bin": { "proofbook": "bin/proofbook.js" },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "verify": "node bin/proofbook.js verify",
+    "serve": "python3 -m http.server 8080"
+  },
+  "engines": { "node": ">=18" },
+  "license": "MIT",
+  "keywords": ["failure-modes", "resilience", "distributed-systems", "simulation", "reliability", "chaos-engineering", "learning"]
+}

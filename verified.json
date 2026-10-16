@@ -1,0 +1,71 @@
+{
+  "generated": "2026-10-16T18:16:20.878Z",
+  "node": "v22.22.0",
+  "seed": 1,
+  "cards": [
+    {
+      "id": "retry-storm",
+      "breakViolates": true,
+      "fixHolds": true,
+      "deterministic": true,
+      "hash": "97f9af5a7435",
+      "ok": true
+    },
+    {
+      "id": "cache-stampede",
+      "breakViolates": true,
+      "fixHolds": true,
+      "deterministic": true,
+      "hash": "1349fe693940",
+      "ok": true
+    },
+    {
+      "id": "lost-update",
+      "breakViolates": true,
+      "fixHolds": true,
+      "deterministic": true,
+      "hash": "525d54b84913",
+      "ok": true
+    },
+    {
+      "id": "double-charge",
+      "breakViolates": true,
+      "fixHolds": true,
+      "deterministic": true,
+      "hash": "c9cafa0c9ac0",
+      "ok": true
+    },
+    {
+      "id": "clock-skew",
+      "breakViolates": true,
+      "fixHolds": true,
+      "deterministic": true,
+      "hash": "76ffcd6dfb8a",
+      "ok": true
+    },
+    {
+      "id": "unbounded-queue",
+      "breakViolates": true,
+      "fixHolds": true,
+      "deterministic": true,
+      "hash": "8f8b272c840a",
+      "ok": true
+    },
+    {
+      "id": "poison-message",
+      "breakViolates": true,
+      "fixHolds": true,
+      "deterministic": true,
+      "hash": "6fd242d7ab4f",
+      "ok": true
+    },
+    {
+      "id": "n-plus-one",
+      "breakViolates": true,
+      "fixHolds": true,
+      "deterministic": true,
+      "hash": "066bbe51e956",
+      "ok": true
+    }
+  ]
+}
